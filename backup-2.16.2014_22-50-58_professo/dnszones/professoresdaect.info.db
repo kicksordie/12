@@ -1,0 +1,30 @@
+; cPanel first:11.40.1.8 (update_time):1389897264 11.40.1.8: Cpanel::ZoneFile::VERSION:1.3 hostname:web01.eskihost.com.br latest:11.40.1.8
+; Zone file for professoresdaect.info
+$TTL 14400
+@      86400	IN      SOA     ns1.eskihost.com.br. drabeski.hotmail.com. (
+		2014011602	; serial, todays date+todays
+		86400		; refresh, seconds
+		7200		; retry, seconds
+		3600000		; expire, seconds
+		86400 )		; minimum, seconds
+
+professoresdaect.info. 86400 IN NS ns1.eskihost.com.br.
+professoresdaect.info. 86400 IN NS ns2.eskihost.com.br.
+
+
+professoresdaect.info. IN A 162.216.0.152
+
+localhost.professoresdaect.info. IN A 127.0.0.1
+
+professoresdaect.info. IN MX 0 professoresdaect.info.
+
+mail IN CNAME professoresdaect.info.
+www IN CNAME professoresdaect.info.
+ftp IN A 162.216.0.152
+cpanel IN A 162.216.0.152
+webdisk IN A 162.216.0.152
+whm IN A 162.216.0.152
+webmail IN A 162.216.0.152
+autoconfig IN A 162.216.0.152
+autodiscover IN A 162.216.0.152
+_autodiscover._tcp IN SRV 0 0 443 cpanelemaildiscovery.cpanel.net.

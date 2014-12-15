@@ -1,0 +1,13 @@
+--- 
+MYSQL: 
+  dbs: 
+    professo_db: 162.216.0.152
+  dbusers: 
+    professo_root: 
+      dbs: 
+        professo_db: 162.216.0.152
+      server: 162.216.0.152
+  noprefix: {}
+
+  owner: professo
+  server: 162.216.0.152

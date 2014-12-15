@@ -1,0 +1,34 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/professoresdaect.info
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/professoresdaect.info-bytes_log
+documentroot: /home/professo/public_html
+group: professo
+hascgi: 0
+homedir: /home/professo
+ifmoduleconcurrentphpc: {}
+
+ifmodulemodsuphpc: 
+  group: professo
+ip: 162.216.0.152
+options: -ExecCGI -Includes
+owner: eserveru
+phpopenbasedirprotect: 1
+port: 8081
+removehandler: 
+  - 
+    removehandler: cgi-script .cgi .pl .plx .ppl .perl
+scriptalias: 
+  - 
+    path: /home/professo/public_html/cgi-bin
+    url: /cgi-bin/
+serveradmin: webmaster@professoresdaect.info
+serveralias: www.professoresdaect.info
+servername: professoresdaect.info
+usecanonicalname: 'Off'
+user: professo
+userdirprotect: ''

@@ -1,0 +1,12 @@
+--- 
+__version: '2.1'
+professoresdaect.info: 
+  account_count: 1
+  accounts: 
+    contato: 
+      disk_mtime: '1392600625'
+      diskquota: 262144000
+      diskused: 530
+  disk_mtime: '1392600625'
+  passwd_mtime: '1392600625'
+  quota_mtime: '1392600625'

@@ -1,0 +1,39 @@
+head	1.2;
+access;
+symbols;
+locks
+	professo:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2014.01.19.06.32.15;	author professo;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.01.19.06.32.15;	author professo;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@contato:262144000
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

@@ -1,0 +1,7 @@
+[16-Jan-2014 22:44:30 Europe/Moscow] PHP Warning:  include(/home/professo/framework/web/CWebApplication.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/professo/framework/YiiBase.php on line 403
+[16-Jan-2014 22:44:30 Europe/Moscow] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/home/professo/framework/web/CWebApplication.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/professo/framework/YiiBase.php on line 403
+[16-Jan-2014 22:44:30 Europe/Moscow] PHP Fatal error:  Class 'CWebApplication' not found in /home/professo/framework/YiiBase.php on line 125
+[26-Jan-2014 00:27:42 Europe/Moscow] PHP Fatal error:  Call to undefined method stdClass::save() in /home/professo/public_html/protected/controllers/DepoimentoController.php on line 52
+[26-Jan-2014 00:38:35 Europe/Moscow] PHP Fatal error:  Call to undefined method stdClass::save() in /home/professo/public_html/protected/controllers/DepoimentoController.php on line 68
+[01-Feb-2014 03:28:43 Europe/Moscow] PHP Fatal error:  Call to undefined method stdClass::save() in /home/professo/public_html/protected/controllers/DepoimentoController.php on line 68
+[02-Feb-2014 03:19:02 Europe/Moscow] PHP Fatal error:  Call to undefined method stdClass::save() in /home/professo/public_html/protected/controllers/DepoimentoController.php on line 52

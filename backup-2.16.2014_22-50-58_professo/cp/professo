@@ -1,0 +1,34 @@
+# cPanel -- If you edit this file directly you must run /usr/local/cpanel/scripts/updateuserdomains afterwards to rebuild the system caches. 
+# If you edit MAX_EMAIL_PER_HOUR or MAX_EMAIL_PER_HOUR-[domain] you must run /usr/local/cpanel/scripts/updateuserdomains
+DNS=professoresdaect.info
+notify_disk_limit=
+MAXPOP=10
+HASDKIM=0
+MAXADDON=0
+CONTACTEMAIL2=
+HASSPF=0
+STARTDATE=1389897260
+MTIME=1391566909
+notify_email_quota_limit=
+MAXLST=unlimited
+MAXFTP=unlimited
+RS=x3
+PLAN=Economica
+LOCALE=pt_br
+DBOWNER=professo
+LEGACY_BACKUP=1
+MAXSQL=5
+HASCGI=0
+CONTACTEMAIL=alexandretok@gmail.com
+USER=professo
+DEMO=0
+BACKUP=1
+IP=162.216.0.152
+MAXSUB=unlimited
+BWLIMIT=unlimited
+FEATURELIST=Padrao
+MAX_DEFER_FAIL_PERCENTAGE=20
+MAX_EMAIL_PER_HOUR=100
+MAXPARK=0
+OWNER=eserveru
+MXCHECK-professoresdaect.info=0
